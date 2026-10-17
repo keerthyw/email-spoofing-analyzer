@@ -1,0 +1,20 @@
+Return-Path: <bounce-8812@bulkmail.example>
+Authentication-Results: mx.acmebank.example; spf=pass smtp.mailfrom=bulkmail.example;
+	dkim=none; dmarc=fail (p=reject) header.from=acmebank.example
+Received: from smtp3.bulkmail.example (smtp3.bulkmail.example [198.51.100.66])
+	by mx.acmebank.example with ESMTP id 7e21; Sat, 17 Oct 2026 05:32:14 +0000
+From: Priya Sharma (CEO) <ceo@acmebank.example>
+Reply-To: priya.ceo.office@freemail.example
+To: finance-team@acmebank.example
+Subject: Urgent: confidential wire transfer today
+Date: Sat, 17 Oct 2026 11:02:10 +0530
+Message-ID: <a8f3e1c2@bulkmail.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hi,
+
+I need you to process a wire transfer of Rs 18,40,000 before 3 pm today.
+I'm in meetings, so reply here only. Keep this confidential.
+
+Priya

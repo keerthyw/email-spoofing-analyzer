@@ -1,0 +1,22 @@
+Return-Path: <security@acrnebank.example>
+Received: from mx.acrnebank.example (mx.acrnebank.example [198.51.100.24])
+	by mx.student.example with ESMTPS id 1b77; Sat, 17 Oct 2026 07:45:43 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=acrnebank.example;
+ i=@acrnebank.example; q=dns/txt; s=s1; t=1792237736; h=from : to :
+ subject : date : message-id : reply-to;
+ bh=tqQLvdKYc4IMmPRSbeRhRoPRuwiSUK2w46t+SZMUi14=;
+ b=pOO9JlM3FusuWICiLU1Nu8vfu3wYnaSDLPXb3+RYr1k9Mw7GeZAGRlsmPxsAfYtgb/0QV
+ bom7OfYJzGC2lr4YRVQcxhwd8BsezXOwhcZhv1Gt2vUdv3xTXByfKrKugUUmvvSkF7LXYL9
+ Sg6Yf8vWiXnn2qUz8kxRDf2lqePQti/o5os+jrdsf6sHJZfQDaWrBV4kcmMQzhm0c/mbRaY
+ 6bHxapTADd2WHz9IovUsQYI/YiN9xTz6i7DFq8pZZ50Gku3aeuGKgUQo4S7NBNnQK/1x31S
+ SeRIlaVbFgaJ1IWOUUdqtwQ3wlMtQdMMQytntEFCTqAJ9rDxEMMhPsnD0LwA==
+From: "AcmeBank Security <security@acmebank.example>" <security@acrnebank.example>
+To: keerthy@student.example
+Subject: Unusual sign-in detected: verify your account
+Date: Sat, 17 Oct 2026 13:15:40 +0530
+Message-ID: <k2l9x8@acrnebank.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+We noticed a sign-in from a new device. Verify your account within 24 hours:
+https://acrnebank.example/verify

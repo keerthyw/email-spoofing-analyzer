@@ -1,0 +1,27 @@
+Return-Path: <bounces@acmebank.example>
+Received: from mail.acmebank.example (mail.acmebank.example [203.0.113.5])
+	by mx.student.example with ESMTPS id 4f1a2b; Sat, 17 Oct 2026 04:30:01 +0000
+Received: from app07.internal.acmebank.example ([10.20.0.7])
+	by mail.acmebank.example with ESMTP id 99c1; Sat, 17 Oct 2026 04:29:59 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=acmebank.example;
+ i=@acmebank.example; q=dns/txt; s=mail2024; t=1792237736; h=from : to
+ : subject : date : message-id : reply-to;
+ bh=cQWpN7idAb7l3GfplJEUqCCEAzamXIpg9EIOfVK/qSk=;
+ b=Yu/HHFeyD71VfYmnwEDd8eg9OiIGbSN9kWBbdw1nhdWU7ipc0NDNX0vYHXjn9/H8M4tuV
+ BNSf6UaG4L0tqdfIaIHIaIOF7Pi/ZaY5Mgblrd7Psi4xFNTbemkzplxaLSjfD5EEqgjFGEB
+ 3V2BTcYbARtZuzqWJoALttbkLU3SFmDQn774uxfGY2BiBYlWN4Et1HdcMMVj/MBFgxm7KUo
+ ZHdcXuZt2kmTJ94wMyVx9Z9ES3JGjwEtzbeVniB2KOlUmKjbblb0L0xI8pGZJQGPAsAfMG9
+ eAUrmm5AiChIwu8dsZ3KBEwFtn/TdTdCnoX2kDFr2KBqSUZDErSPqOsDV2dQ==
+From: AcmeBank Alerts <alerts@acmebank.example>
+To: keerthy@student.example
+Subject: Your monthly statement is ready
+Date: Sat, 17 Oct 2026 09:59:58 +0530
+Message-ID: <20261017042958.7731@mail.acmebank.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello,
+
+Your October statement is available in net banking.
+
+AcmeBank

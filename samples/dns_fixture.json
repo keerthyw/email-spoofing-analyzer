@@ -1,0 +1,41 @@
+{
+  "TXT": {
+    "acmebank.example": [
+      "v=spf1 ip4:203.0.113.0/28 include:_spf.mailer.example -all"
+    ],
+    "_spf.mailer.example": [
+      "v=spf1 ip4:192.0.2.64/27 ~all"
+    ],
+    "_dmarc.acmebank.example": [
+      "v=DMARC1; p=reject; rua=mailto:dmarc@acmebank.example"
+    ],
+    "mail2024._domainkey.acmebank.example": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsou+5MkAGKnQl4TYKUZFjITlNsZIRviP8MqtymZE9f/oGQ9BH+hUx5eVgSnbRTu1GBncmdwCgtlJwrrZTtOztkQH478sHdXfV69zV4ix30pfpMF4JUNsIav7Z/z1VMBG581lCsfnOqhnIj917r5WVdayvpoSgADTHAoUFONKe0wHsoGMG9WrwtMZFUnv8Oek5N/6wrzPr84C5fOloK9EIs8iJd9huaxH2XtjwUPOSEH/BRXJccN0Pn9Dg6YEp75oAlJ8jRl93p0XWWs9Hhkx66UfkWD9RsSBYn6b9ovbPPXHNXgMQtKlBnOoinmd9HEvXd+eTt5fC5Ivoj+7pLAQIQIDAQAB"
+    ],
+    "bulkmail.example": [
+      "v=spf1 ip4:198.51.100.0/24 ~all"
+    ],
+    "acrnebank.example": [
+      "v=spf1 a mx -all"
+    ],
+    "_dmarc.acrnebank.example": [
+      "v=DMARC1; p=none"
+    ],
+    "s1._domainkey.acrnebank.example": [
+      "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3KSaebwJ7Q7Im/ANxmE3uCQarX9A5HhPfUWHKRyxwWO3L9G/ku2SdM6IBKB+kV/clzidPK7Jm0dXRa19pmEZ9RLvseSgmnP8t9Y9pdEZzyzKZukRmw+OpO4C9oZcpNoiNMBBXBeQZK3TU1+NrZQi0uegwECEfV6yXjK0ucpa1LsS77zaniKIaseWPIBBS1gvKkhygN/lMPYbsllBruBlNZkewaMI6iQk7fw4eeTo+XIOC9YAX+lvvrH2SoxT3igrkp85JCqU9fozd1ZLcmtubs9fhaegrusEK66rFot6FToqA9oP6cgbsxCR0Rqs5XUD1CZXKNc3fry5DCkvITouMwIDAQAB"
+    ]
+  },
+  "A": {
+    "acrnebank.example": [
+      "198.51.100.23"
+    ],
+    "mx.acrnebank.example": [
+      "198.51.100.24"
+    ]
+  },
+  "MX": {
+    "acrnebank.example": [
+      "mx.acrnebank.example"
+    ]
+  }
+}
